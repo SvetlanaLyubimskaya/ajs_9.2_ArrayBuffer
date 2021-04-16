@@ -10,5 +10,5 @@ test('ArrayBufferConverter', () => {
   // в toString выводить строку
   const result = '{"data":{"user":{"id":1,"name":"Hitman","level":10}}}';
 
-  expect(bufferArr.toString()).toEqual(result);
+  expect(bufferArr.toString()).toBe(result);
 });
